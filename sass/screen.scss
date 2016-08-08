@@ -1,0 +1,41 @@
+$verde: #45ff45;
+$default-box-shadow-blur: 90px;
+
+@import "compass";
+
+h1{
+    color: $verde;
+    font-family: verdana;
+}
+
+.box{
+    
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: $verde;
+    //background-image: image-url("logo.png");
+    
+    @include transition-duration(0.1s);
+    &:hover{
+        border: 13px solid $verde;
+        
+        background: white;    
+        @include box-shadow;
+        h1{
+            color: $verde;
+        }
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        padding-bottom: 50%;
+        font-family: verdana;
+        @include transition;
+        
+    }
+}
+
+

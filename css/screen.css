@@ -1,0 +1,41 @@
+/* line 6, ../sass/screen.scss */
+h1 {
+  color: #45ff45;
+  font-family: verdana;
+}
+
+/* line 11, ../sass/screen.scss */
+.box {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: #45ff45;
+  -moz-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* line 21, ../sass/screen.scss */
+.box:hover {
+  border: 13px solid #45ff45;
+  background: white;
+  -moz-box-shadow: 0px 0px 90px #333333;
+  -webkit-box-shadow: 0px 0px 90px #333333;
+  box-shadow: 0px 0px 90px #333333;
+}
+/* line 26, ../sass/screen.scss */
+.box:hover h1 {
+  color: #45ff45;
+}
+/* line 31, ../sass/screen.scss */
+.box h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 50%;
+  font-family: verdana;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
